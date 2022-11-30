@@ -1,0 +1,67 @@
+.login-form-m {
+  width: 45%;
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+  float: right;
+  margin-right: 15%;
+}
+
+
+.login-form-m h2{
+  font-weight: 500;
+  color: brown;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.login-form-m:hover {
+  border-radius: 20px;
+}
+
+.create-acc {
+  color: teal;
+  text-decoration: blink;
+  padding: 5px;
+}
+
+.userin {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+}
+
+.lbtn {
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 8px;
+  background-color: green;
+}
+
+.lbtn:hover {
+  background-color: brown;
+  color: azure;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.lic {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.lic:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-form-m{
+    width: auto;
+  }
+  
+}

@@ -1,0 +1,60 @@
+.r-form {
+    width: 50%;
+    height: 30%;
+    background-color: gainsboro;
+    float: left;
+    margin-left: 7%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.r-form h2 {
+    color: blueviolet;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.r-form:hover {
+    border-radius: 20px;
+}
+
+.r-form label {
+    font-size: 18px;
+}
+
+.input-field {
+    margin: 15px;
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.input-field:hover {
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.rbtn {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 8px;
+    background-color: green;
+    color: azure;
+    font-size: 18px;
+}
+
+.rbtn:hover {
+    border-radius: 15px;
+    background-color: maroon;
+    cursor: pointer;
+    border: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .r-form{
+      width: auto;
+    }
+    
+  }
